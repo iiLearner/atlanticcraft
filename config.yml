@@ -1,0 +1,26 @@
+#Request message
+Line1: "&b&lAtlanticCraft&f&l» &aTeleport request from &6/sender/ &areceived." 
+Line2: "&aType &b&l/tpaccept &ato accept or &c&l/tpdeny &ato deny."
+
+Line11: "&b&lAtlanticCraft&f&l» &6/sender/ &ahas requested you to teleport to them." 
+Line22: "&aType &b&l/tpaccept &ato accept or &c&l/tpdeny &ato deny."
+
+#Request sent message
+RequestSent: "&b&lAtlanticCraft&f&l» &aTeleport request successfully sent to &6/target/"
+#Request accepted or denied
+RequestAcceptedTeleport: "&b&lTeleport&f&l» &6/sender/ &ahas been teleported to you!"
+RequestAcceptedTeleport1: "&b&lTeleport&f&l» &aYou have been teleported to &6/sender/!"
+
+
+RequestAccepted: "&b&lTeleport&f&l» &6/target/ &aaccepted the teleport!"
+NoRequestToAccept: "&b&lAtlanticCraft&f&l» &7No request to accept!"
+RequestDeniedTeleport: "&b&lTeleport&f&l» &6/target/ has &7denied the teleport "
+RequestDenied: "&b&lTeleport&f&l» &7You denied the teleport"
+NoRequestToDeny: "&b&lAtlanticCraft&f&l» &7No request to deny!"
+#Errors
+CooldownError: "&b&lAtlanticCraft&f&l» &7Please wait before requesting a teleport again!"
+PlayerInAnotherWorldError: "&b&lAtlanticCraft&f&l» &7You can't teleport to a player into another world!"
+SpecifyPlayerError: "&b&lAtlanticCraft&f&l» &7Please specify a player!"
+PlayerDoesNotExistError: "&b&lAtlanticCraft&f&l» &7That player doesn't exist!"
+TpaFromConsoleError: "&b&lAtlanticCraft&f&l» &cYou can't use the plug-in from the console!"
+CooldownInSeconds: 60

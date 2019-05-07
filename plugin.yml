@@ -1,0 +1,65 @@
+name: AtlanticCraft
+version: 1.6
+main: core.tpaCommand
+author: Atlanticcraft
+description: AtlanticCraft teleport command
+
+commands: 
+    tpa:
+        usage: /<command> <Player>
+        description: Send a tpa request
+        permission: ac.tpa
+        
+    tpaccept: 
+        usage: /<command>
+        description: Accept a tpa request
+        permission: ac.accept
+        
+        
+    tpdeny: 
+        usage: /<command>
+        description: Decline a tpa request
+        permission:  ac.deny 
+        
+    vote:
+        usage: /<command>
+        description: use to get voting information
+        permission:  ac.vote
+    
+    tphere:
+        usage: /<command>
+        description: teleport a player to you
+        permission:  ac.tphere
+    
+    softmute1:
+        usage: /<command>
+        description: softmute a player
+        permission:  ac.softmute
+        
+    ask:
+        usage: /<command> <msg>
+        description: ask moderators for help
+        permission: ac.ophelp
+       
+        
+permissions:
+    ac.tpa:
+      default: true
+      
+    ac.accept:
+      default: true
+      
+    ac.deny: 
+      default: true
+    
+    ac.tphere: 
+      default: true 
+      
+    ac.vote: 
+      default: true
+    
+    ac.softmute: 
+      default: false
+    
+    ac.ask: 
+      default: true    
